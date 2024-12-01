@@ -1,6 +1,6 @@
 ---
 title: 의미기반 유사특허 검색시스템
-date: 2024-12-01
+date: 2023-02-22
 categories: [Projects, AI]
 tags: [anomaly-detection, deep-learning]
 ---

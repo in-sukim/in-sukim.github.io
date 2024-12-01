@@ -1,6 +1,6 @@
 ---
 title: 웹페이지 관리자 대시보드
-date: 2024-12-01
+date: 2023-12-24
 categories: [Projects, AI]
 tags: [anomaly-detection, deep-learning]
 ---

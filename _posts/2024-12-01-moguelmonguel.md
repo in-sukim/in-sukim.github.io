@@ -1,6 +1,6 @@
 ---
 title: 몽글몽글
-date: 2024-12-01
+date: 2024-10-14
 categories: [Projects, AI]
 tags: [anomaly-detection, deep-learning]
 ---
