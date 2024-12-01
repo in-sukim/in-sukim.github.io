@@ -9,13 +9,13 @@ tags: [anomaly-detection, deep-learning]
 
 <div style="display: flex; flex-direction: column; gap: 0.5rem;">
   <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
-    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
-    <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white">
+    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+    <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch">
   </div>
 
   <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
-    <img src="https://img.shields.io/badge/Faiss-00A1EA?style=for-the-badge&logo=Faiss&logoColor=white">
-    <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white">
-    <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=Flask&logoColor=white">
+    <img src="https://img.shields.io/badge/Faiss-00A1EA?style=for-the-badge&logo=Faiss&logoColor=white" alt="Faiss">
+    <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL">
+    <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=Flask&logoColor=white" alt="Flask">
   </div>
 </div>

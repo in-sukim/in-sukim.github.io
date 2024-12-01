@@ -9,7 +9,7 @@ tags: [anomaly-detection, deep-learning]
 
 <div style="display: flex; flex-direction: column; gap: 0.5rem;">
   <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
-    <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white">
-    <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white">
+    <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL">
+    <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white" alt="Tableau">
   </div>
 </div>
