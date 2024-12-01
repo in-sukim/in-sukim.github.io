@@ -16,8 +16,10 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
   height: 100%;
   overflow-y: auto;
   width: v.$sidebar-width;
-  background: var(--sidebar-bg);
-  border-right: 1px solid var(--sidebar-border-color);
+  // background: var(--sidebar-bg);
+  background: url('/assets/img/bg.jpeg');
+  background-size: auto;
+  background-position: center;
 
   /* Hide scrollbar for IE, Edge and Firefox */
   -ms-overflow-style: none; /* IE and Edge */
@@ -106,13 +108,14 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
     margin-top: 1.25rem;
     margin-bottom: 0.5rem;
     width: fit-content;
-    color: var(--site-title-color);
+    color: rgba(19, 18, 18, 0.99);
   }
 
   .site-subtitle {
     font-size: 95%;
-    color: var(--site-subtitle-color);
+    color: rgba(4, 4, 4, 0.99);
     margin-top: 0.25rem;
+    min-height: 3rem;
     word-spacing: 1px;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -178,13 +181,16 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
     padding-left: 2rem;
     padding-right: 1rem;
     margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     @include bp.xxxl {
       padding-left: 2.75rem;
       margin-bottom: 1.75rem;
     }
 
-    $btn-size: 1.75rem;
+    $btn-size: 2.5rem;
 
     %button {
       width: $btn-size;
@@ -204,6 +210,10 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
 
       &:hover {
         background-color: var(--sidebar-hover-bg);
+      }
+
+      i {
+        font-size: 1.2rem;
       }
     }
 
