@@ -10,7 +10,7 @@ tags: [anomaly-detection, deep-learning]
   <div class="project-section info-section">
     <h2>프로젝트 정보</h2>
     <div class="project-info">
-      <img src="assets/img/main-page.png" alt="몽글몽글 메인 페이지">
+      <img src="assets/img/mong/main-page.png" alt="몽글몽글 메인 페이지">
       <strong>Github</strong> <a href="https://github.com/in-sukim/Mongeul-ML">Link</a><br>
       <strong>개발 기간</strong> 2024.8.9 ~ 2024.10.14<br>
       <strong>인원</strong> 6명(FE:2, BE:2, AI:2)<br>
@@ -189,8 +189,8 @@ tags: [anomaly-detection, deep-learning]
 </div>
 
 <div class="architecture-diagram">
-  <img src="assets/img/infra.png" alt="몽글몽글 인프라 구조도">
-  <img src="assets/img/system.png" alt="몽글몽글 시스템 아키텍처">
+  <img src="assets/img/mong/infra.png" alt="몽글몽글 인프라 구조도">
+  <img src="assets/img/mong/system.png" alt="몽글몽글 시스템 아키텍처">
 </div>
 
 <script src="/assets/js/projects.js"></script>
