@@ -6,6 +6,7 @@ layout: page
 title: 안녕하세요!  🙋‍♂️ AI 엔지니어, 김인수입니다.
 ---
 
+<script src="{{ '/assets/js/about.js' | relative_url }}"></script>
 
 문제 정의부터 해결까지 일련의 과정을 즐깁니다.<br>
 문제 상황에 대한 해결방법을 찾을 때는 특정 기술에 얽매이지 않고, 상황에 가장 적합한 기술을 선택하는 것을 중요하게 생각합니다.<br><br>
@@ -25,10 +26,10 @@ title: 안녕하세요!  🙋‍♂️ AI 엔지니어, 김인수입니다.
 - **과학기술사업화진흥원**
     - 전략기획실/데이터분석 인턴
     - 2022.09. -  2023.02.(6개월)
-    - [의미 기반 유사특허 검색시스템](https://github.com/in-sukim/NIA_Intern/tree/main/%EC%9D%98%EB%AF%B8%EA%B8%B0%EB%B0%98%20%EC%9C%A0%EC%82%AC%ED%8A%B9%ED%97%88%20%EA%B2%80%EC%83%89%EC%8B%9C%EC%8A%A4%ED%85%9C) 개발
+    - <a href="#semantic-patent">의미 기반 유사특허 검색시스템</a> 개발
         - 기존 검색시스템 대비 약 62% 추론 속도 개선.
         - 15명 대상 설문조사 결과 80% 긍정적평가, 특허 분석 프로세스 효율화
-    - [웹페이지 관리자 대시보드](https://github.com/in-sukim/NIA_Intern/tree/main/%EC%9B%B9%ED%8E%98%EC%9D%B4%EC%A7%80%20%EA%B4%80%EB%A6%AC%EC%9E%90%20%EB%8C%80%EC%8B%9C%EB%B3%B4%EB%93%9C) 개발
+    - <a href="#web-dashboard">웹페이지 관리자 대시보드</a> 개발
         - 플랫폼 데이터 관리 대시보드로 활용.
 <br><br>
 
@@ -46,24 +47,29 @@ title: 안녕하세요!  🙋‍♂️ AI 엔지니어, 김인수입니다.
   - [📝 상세보기]({% post_url 2024-12-01-snap %}){:.project-link} [💻 GitHub](https://github.com/in-sukim/SNAP){:.project-link}
 
 ### 💼 Business Project
+<div id="semantic-patent" markdown="1">
 - **의미기반 유사특허 검색시스템** `2023.01 – 2023.02(2개월)`{:.project-date}
   - 의미 기반 유사특허 탐색 지원 검색시스템
   - `S-BERT Fine-tuning` `Faiss Vector DB` `Flask`
-  - [📝 상세보기]({% post_url 2024-12-01-semantic_patent %}){:.project-link} [💻 GitHub](https://github.com/in-sukim/NIA_Intern){:.project-link}
+  - [📝 상세보기]({% post_url 2024-12-01-semantic_patent %}){:.project-link}
+</div>
+
+<div id="web-dashboard" markdown="1">
 - **웹페이지 관리자 대시보드** `2023.12(3주)`{:.project-date}
   - 웹페이지 관리자 대시보드 개발
   - `PostgreSQL` `Tableau`
-  - [📝 상세보기]({% post_url 2024-12-01-web-interactive %}){:.project-link} [💻 GitHub](https://github.com/in-sukim/NIA_Intern){:.project-link}
+  - [📝 상세보기]({% post_url 2024-12-01-web-interactive %}){:.project-link}
+</div>
 
 ### 🔬 Learning Project
 - **Open-Domain Question Answering** `2024.02(2주)`{:.project-date}
   - Knowledge resource 기반 질의응답 시스템 개발
   - `PyTorch` `Transformers` `FAISS`
-  - [📝 상세보기]({% post_url 2024-12-01-ODQA %}){:.project-link} [💻 GitHub](https://github.com/in-sukim/Open_Domain_Question_Answering){:.project-link}
+  - [💻 GitHub](https://github.com/in-sukim/Open_Domain_Question_Answering){:.project-link}
 - **Relation Extraction** `2024.01(2주)`{:.project-date}
   - 문서 내 엔티티 간 관계 추출
   - `PyTorch` `Huggingface` `Transformers`
-  - [📝 상세보기]({% post_url 2024-12-01-RE %}){:.project-link} [💻 GitHub](https://github.com/in-sukim/Relation_Extraction){:.project-link}
+  - [💻 GitHub](https://github.com/in-sukim/Relation_Extraction){:.project-link}
 
 <br><br>
 
@@ -83,7 +89,7 @@ title: 안녕하세요!  🙋‍♂️ AI 엔지니어, 김인수입니다.
 - **HIRA 빅데이터 기반 산-학-연 연계 맞춤형 인재 양성 교육**
     - 2021.07. -  2021.09.(10주)
     - 산업체와 멘토·멘티 팀 구성을 통한 실무 프로젝트 수행
-    - 분석 교육 및 산업현장 수요 해결 과제 수행
+    - 분석 교육 및 산업현장 수요 해결 과제 수��
     - [팀별 프로젝트 우수상(2등) 수상](https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA020041000100&brdScnBltNo=4&brdBltNo=10427)
 
 - **한림대학교**
