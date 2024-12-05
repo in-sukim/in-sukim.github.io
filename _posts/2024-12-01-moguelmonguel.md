@@ -2,9 +2,8 @@
 title: 몽글몽글
 date: 2024-10-14
 categories: [Projects, AI]
-tags: [anomaly-detection, deep-learning]
+tags: [FastAPI, LangChain, Milvus, PostgreSQL, OCR, GPT-4, 텍스트처리, AI서비스]
 ---
-
 
 <div class="project-container">
   <div class="project-section info-section">
@@ -262,3 +261,5 @@ tags: [anomaly-detection, deep-learning]
 </div>
 
 <script src="/assets/js/projects.js"></script>
+
+

@@ -2,7 +2,7 @@
 title: 웹페이지 관리자 대시보드
 date: 2023-12-24
 categories: [Projects, Data Analytics]
-tags: [data-visualization, bi-dashboard]
+tags: [대시보드, 데이터시각화, 데이터베이스, 웹개발, 실시간데이터, 검색분석, PostgreSQL, Tableau]
 ---
 
 <div class="project-container">
