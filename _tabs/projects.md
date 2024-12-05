@@ -35,28 +35,9 @@ order: 2
 
   <div class="project-item">
     <div class="project-content">
-      <h3>Open-Domain Question Answering</h3>
-      <p class="project-date">2024.02(2주)</p>
-      <p class="project-desc">주어진 지문 없이 사전에 구축된 Knowledge resource에서 질문에 대해 답변 가능한 문서를 찾아 답변 할 수 있는 Q&A 시스템.</p>
-      <a href="/posts/ODQA" class="project-link">자세히 보기 →</a>
-    </div>
-  </div>
-
-  <div class="project-item">
-    <div class="project-content">
       <h3>웹페이지 관리자 대시보드</h3>
       <p class="project-date">2023.12(1개월)</p>
       <p class="project-desc">웹사이트 방문자 및 가입자에 관한 관리자 통계 데이터 대시보드</p>
       <a href="/posts/web-interactive" class="project-link">자세히 보기 →</a>
     </div>
   </div>
-
-  <div class="project-item">
-    <div class="project-content">
-      <h3>Relation Extraction</h3>
-      <p class="project-date">2024.01(2주)</p>
-      <p class="project-desc">subject entity와 object entity의 관계를 파악하여 올바른 클래스를 예측하는 태스크.</p>
-      <a href="/posts/RE" class="project-link">자세히 보기 →</a>
-    </div>
-  </div>
-</div>
