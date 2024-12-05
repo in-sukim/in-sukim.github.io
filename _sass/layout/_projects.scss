@@ -464,3 +464,97 @@
     }
   }
 }
+
+.image-slider {
+  position: relative;
+  width: 100%;
+  margin: 0.5rem auto;
+  max-width: 1800px;
+  height: 45vh;
+  
+  .slider-container {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  .slider-track {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+    height: 100%;
+  }
+
+  .slide {
+    min-width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    img {
+      width: auto;
+      height: auto;
+      max-width: 100%;
+      max-height: 100%;
+      display: block;
+      border-radius: 8px;
+      object-fit: contain;
+    }
+  }
+
+  .slider-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+    border: none;
+    padding: 0.8rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 10;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background: rgba(0, 0, 0, 0.5);
+      transform: translateY(-50%) scale(1.1);
+    }
+
+    &.prev {
+      left: 0.5rem;
+    }
+
+    &.next {
+      right: 0.5rem;
+    }
+  }
+}
+
+// 다크모드 대응
+[data-mode="dark"] {
+  .slider-button {
+    background: rgba(255, 255, 255, 0.15);
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.25);
+    }
+  }
+
+  .image-slider .slider-container {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  }
+}
+
+// 반응형 대응
+@media (max-width: 768px) {
+  .image-slider {
+    margin: 0.25rem auto;
+    height: 35vh;
+  }
+}

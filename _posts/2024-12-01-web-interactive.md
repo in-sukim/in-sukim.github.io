@@ -39,12 +39,6 @@ tags: [data-visualization, bi-dashboard]
         <div class="feature-item">
           <h3>1. 사이트 사용자 현황 대시보드</h3>
           <div class="section-content">
-            <div class="tech-badges">
-              <div class="badge-group">
-                <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white" alt="Tableau">
-                <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL">
-              </div>
-            </div>
             <h3>주요 기능</h3>
             <ul class="feature-list">
               <li><strong>전체 내부망 데이터베이스 연동</strong>
@@ -59,10 +53,26 @@ tags: [data-visualization, bi-dashboard]
                 </ul>
               </li>
             </ul>
-          <img src="assets/img/interactive/inter-dashboard1.png" alt="웹페이지 관리자 대시보드 대시보드1" >
-          <img src="assets/img/interactive/inter-dashboard2.png" alt="웹페이지 관리자 대시보드 대시보드2" >
-          <img src="assets/img/interactive/inter-dashboard3.png" alt="웹페이지 관리자 대시보드 대시보드3" >
-          <img src="assets/img/interactive/inter-dashboard4.png" alt="웹페이지 관리자 대시보드 대시보드4" >
+            <div class="image-slider">
+              <button class="slider-button prev">&#10094;</button>
+              <div class="slider-container">
+                <div class="slider-track">
+                  <div class="slide">
+                    <img src="assets/img/interactive/inter-dashboard1.png" alt="웹페이지 관리자 대시보드 대시보드1">
+                  </div>
+                  <div class="slide">
+                    <img src="assets/img/interactive/inter-dashboard2.png" alt="웹페이지 관리자 대시보드 대시보드2">
+                  </div>
+                  <div class="slide">
+                    <img src="assets/img/interactive/inter-dashboard3.png" alt="웹페이지 관리자 대시보드 대시보드3">
+                  </div>
+                  <div class="slide">
+                    <img src="assets/img/interactive/inter-dashboard4.png" alt="웹페이지 관리자 대시보드 대시보드4">
+                  </div>
+                </div>
+              </div>
+              <button class="slider-button next">&#10095;</button>
+            </div>
           </div>
         </div>
       </div>
@@ -70,11 +80,6 @@ tags: [data-visualization, bi-dashboard]
         <div class="feature-item">
           <h3>2. 검색어 분석 대시보드</h3>
           <div class="section-content">
-            <div class="tech-badges">
-              <div class="badge-group">
-                <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL">
-              </div>
-            </div>
             <h3>주요 기능</h3>
             <ul class="feature-list">
               <li><strong>전체 내부망 데이터베이스 연동</strong>
@@ -90,9 +95,21 @@ tags: [data-visualization, bi-dashboard]
                   <li>관련 특허 정보 연계 표시</li>
                 </ul>
               </li>
-            <img src="assets/img/interactive/inter-keyword.png" alt="웹페이지 관리자 대시보드 검색어1" >
-            <img src="assets/img/interactive/inter-keyword2.png" alt="웹페이지 관리자 대시보드 검색어2" >
             </ul>
+            <div class="image-slider">
+              <button class="slider-button prev">&#10094;</button>
+              <div class="slider-container">
+                <div class="slider-track">
+                  <div class="slide">
+                    <img src="assets/img/interactive/inter-keyword.png" alt="웹페이지 관리자 대시보드 검색어1">
+                  </div>
+                  <div class="slide">
+                    <img src="assets/img/interactive/inter-keyword2.png" alt="웹페이지 관리자 대시보드 검색어2">
+                  </div>
+                </div>
+              </div>
+              <button class="slider-button next">&#10095;</button>
+            </div>
           </div>
         </div>
       </div>
