@@ -1,5 +1,5 @@
 ---
-title: "웹페이지 관리자 대시보드"
+title: 웹페이지 관리자 대시보드
 date: 2023-12-24
 categories: [Projects, Data Analytics]
 tags: [대시보드, 데이터시각화, 데이터베이스, 웹개발, 실시간데이터, 검색분석, PostgreSQL, Tableau]
@@ -43,13 +43,13 @@ tags: [대시보드, 데이터시각화, 데이터베이스, 웹개발, 실시�
             <ul class="feature-list">
               <li><strong>전체 내부망 데이터베이스 연동</strong>
                 <ul>
-                  <li><strong>사용자 검색 기록 실시간 수집</strong></li>
-                  <li><strong>검색어 통계 자동 업데이트</strong></li>
+                  <li>사용자 검색 기록 실시간 수집</li>
+                  <li>검색어 통계 자동 업데이트</li>
                 </ul>
               </li>
               <li><strong>필터 조건 적용</strong>
                 <ul>
-                  <li><strong>필터 기능</strong>을 통한 <strong>데이터 특정 조건 조회</strong></li>
+                  <li>필터 기능을 통한 데이터 특정 조건 조회</li>
                 </ul>
               </li>
             </ul>
@@ -84,15 +84,15 @@ tags: [대시보드, 데이터시각화, 데이터베이스, 웹개발, 실시�
             <ul class="feature-list">
               <li><strong>전체 내부망 데이터베이스 연동</strong>
                 <ul>
-                  <li><strong>사용자 검색 기록 실시간 수집</strong></li>
-                  <li><strong>검색어 통계 자동 업데이트</strong></li>
+                  <li>사용자 검색 기록 실시간 수집</li>
+                  <li>검색어 통계 자동 업데이트</li>
                 </ul>
               </li>
               <li><strong>검색어 패턴 분석</strong>
                 <ul>
-                  <li><strong>시간대별 검색량 추이</strong> 시각화</li>
-                  <li><strong>워드클라우드</strong>를 통한 <strong>인기 검색어</strong> 시각화</li>
-                  <li><strong>관련 특허 정보</strong> 연계 표시</li>
+                  <li>시간대별 검색량 추이 시각화</li>
+                  <li>워드클라우드를 통한 인기 검색어 시각화</li>
+                  <li>관련 특허 정보 연계 표시</li>
                 </ul>
               </li>
             </ul>
@@ -116,35 +116,37 @@ tags: [대시보드, 데이터시각화, 데이터베이스, 웹개발, 실시�
     </div>
   </div>
 
-  <div class="project-section info-section">
+  <div class="project-section technical-section">
     <h2>Technical Challenges & Solutions</h2>
     <div class="section-content">
       <ul class="feature-list">
-        <li><strong>데이터 실시간성 문제</strong><br><br>
-          <strong>내부망 데이터베이스</strong>의 데이터를 대시보드에 <strong>실시간</strong>으로 반영해야 했습니다. 초기에는 대시보드에서 사용되는 데이터들을 
-          <strong>개별 SQL 쿼리</strong>로 연결하여 <strong>수동으로 업데이트</strong>하는 방식을 사용했으나, 이는 <strong>시스템 부하</strong>가 크고 <strong>실시간성</strong>이 떨어지는 
+        <li>
+          <strong>데이터 실시간성 문제</strong><br><br>
+          내부망 데이터베이스의 데이터를 대시보드에 실시간으로 반영해야 했습니다. 초기에는 대시보드에서 사용되는 데이터들을 
+          개별 SQL 쿼리로 연결하여 수동으로 업데이트하는 방식을 사용했으나, 이는 시스템 부하가 크고 실시간성이 떨어지는 
           문제가 있었습니다.<br><br>
-          이를 해결하기 위해 <strong>Tableau Server</strong>를 도입하여 <strong>데이터 실시간 업데이트 파이프라인</strong>을 구축했습니다. 
-          대시보드에서 사용되는 데이터들은 모두 <strong>사용자 지정 SQL 쿼리</strong>로 연결하고, 정리된 데이터셋을 모두 Tableau Server에 
-          업로드하여 대시보드의 <strong>실시간 업데이트</strong>를 구현했습니다.
+          이를 해결하기 위해 Tableau Server를 도입하여 데이터 실시간 업데이트 파이프라인을 구축했습니다. 
+          대시보드에서 사용되는 데이터들은 모두 사용자 지정 SQL 쿼리로 연결하고, 정리된 데이터셋을 모두 Tableau Server에 
+          업로드하여 대시보드의 실시간 업데이트를 구현했습니다.
         </li>
-        <li><strong>데이터 품질 관리</strong><br><br>
-          다양한 소스에서 수집된 데이터의 <strong>품질 관리</strong>가 필요했습니다. 특히 검색어 데이터에서 <strong>특수문자, 공백</strong> 등으로 인한
-          <strong>데이터 불일치</strong> 문제가 발생했습니다.<br><br>
-          <strong>PostgreSQL</strong>의 <strong>정규식 함수</strong>를 활용하여 <strong>데이터 전처리 파이프라인</strong>을 구축했고, 이를 통해 <strong>데이터 정합성</strong>을 확보했습니다.
+        <li>
+          <strong>데이터 품질 관리</strong><br><br>
+          다양한 소스에서 수집된 데이터의 품질 관리가 필요했습니다. 특히 검색어 데이터에서 특수문자, 공백 등으로 인한
+          데이터 불일치 문제가 발생했습니다.<br><br>
+          PostgreSQL의 정규식 함수를 활용하여 데이터 전처리 파이프라인을 구축했고, 이를 통해 데이터 정합성을 확보했습니다.
         </li>
       </ul>
     </div>
   </div>
 
-  <div class="project-section info-section">
+  <div class="project-section achievements-section">
     <h2>주요 성과</h2>
     <div class="section-content">
       <ul class="feature-list">
-        <li><strong>키워드 검색 로그</strong> <strong>241,490건</strong> 데이터 처리</li>
-        <li><strong>데이터 업데이트 시간</strong> <strong>90% 단축</strong> (<strong>수동 30분 → 자동 3분</strong>)</li>
-        <li><strong>관리자 검색어 분석 시간</strong> <strong>75% 절감</strong></li>
-        <li><strong>회사 내부망 홈페이지</strong> 반영, <strong>플랫폼 데이터 관리 대시보드</strong> 구축</li>
+        <li>키워드 검색 로그 <strong>241,490건</strong> 데이터 처리</li>
+        <li>데이터 업데이트 시간 <strong>90% 단축</strong> (수동 30분 → 자동 3분)</li>
+        <li>관리자 검색어 분석 시간 <strong>75% 절감</strong></li>
+        <li>회사 내부망 홈페이지 반영, <strong>플랫폼 데이터 관리 대시보드 구축</strong></li>
       </ul>
     </div>
   </div>
