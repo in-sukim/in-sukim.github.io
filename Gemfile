@@ -6,6 +6,7 @@ ruby "3.3.6"
 
 gem "jekyll"
 gem "jekyll-theme-chirpy", "~> 6.4.2"
+gem "html-proofer"
 
 # Required plugins for Chirpy
 group :jekyll_plugins do
