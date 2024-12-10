@@ -3,15 +3,23 @@
 icon: fas fa-info-circle
 order: 1
 layout: page
-title: 안녕하세요!  🙋‍♂️ AI 엔지니어, 김인수입니다.
+title: ""
 ---
+<!-- Start of Selection -->
 
 <script src="{{ '/assets/js/about.js' | relative_url }}"></script>
 
-문제 정의부터 해결까지 일련의 과정을 즐깁니다.<br>
-문제 상황에 대한 해결방법을 찾을 때는 특정 기술에 얽매이지 않고, 상황에 가장 적합한 기술을 선택하는 것을 중요하게 생각합니다.<br><br>
-최근에는 LLM 에이전트를 활용해 문제를 자동화하고 해결하는데 관심이 많습니다.<br>
-다양한 문제를 해결하면서 AI 엔지니어로서 성장하는 것을 목표로 하고 있습니다.
+<h1 style="text-align: center;">안녕하세요!  🙋‍♂️ AI 엔지니어, 김인수입니다.</h1><br>
+
+<div style="text-align: center;">
+    문제 정의부터 해결까지 일련의 과정을 즐깁니다.<br>
+    문제 상황에 대한 해결방법을 찾을 때는 특정 기술에 얽매이지 않고, <Br>상황에 가장 적합한 기술을 선택하는 것을 중요하게 생각합니다.<br><br>
+    최근에는 LLM Agent를 활용해 문제를 자동화하고 해결하는데 관심이 많습니다.<br>
+    다양한 문제를 해결하면서 AI 엔지니어로서 성장하는 것을 목표로 하고 있습니다.
+
+    감사합니다!
+</div>
+<!-- End of Selection -->
 
 <br>
 
