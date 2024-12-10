@@ -4,9 +4,6 @@ icon: fas fa-info-circle
 order: 1
 layout: page
 title: 안녕하세요!  🙋‍♂️ AI 엔지니어, 김인수입니다.
-redirect_from:
-  - /
-  - /index.html
 ---
 
 <script src="{{ '/assets/js/about.js' | relative_url }}"></script>
